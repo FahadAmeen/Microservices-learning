@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KljcZDxXP7uhb4hDL0eiFpREXFGJWXqLp9YbNOv5VPOuVrUl3h3R7ryYtTcY+7y+RF+WDGKqPSXXaAMHetc6hQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication1\\WebApplication1.API\\WebApplication1.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mfah\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
