@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Catalog.API.Data
 {
-    public class CatalogContext : DbContext
+    public class OrderingContext : DbContext
     {
-        public CatalogContext(DbContextOptions settings):base(settings)
+        public OrderingContext(DbContextOptions settings):base(settings)
         {
 
         }
@@ -13,6 +13,6 @@ namespace Catalog.API.Data
         {
             base.OnModelCreating(builder);
         }
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
