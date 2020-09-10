@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API\\WebApplication2.API.csproj": {}
+    "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API\\WebApplication2.API.csproj": {
+    "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API\\WebApplication2.API.csproj",
+        "projectUniqueName": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API.csproj",
         "projectName": "WebApplication2.API",
-        "projectPath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API\\WebApplication2.API.csproj",
+        "projectPath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API.csproj",
         "packagesPath": "C:\\Users\\mfah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\WebApplication2.API\\obj\\",
+        "outputPath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

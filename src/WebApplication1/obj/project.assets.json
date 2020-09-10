@@ -89,11 +89,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication1\\WebApplication1.API\\WebApplication1.API.csproj",
+      "projectUniqueName": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication1\\WebApplication1.API.csproj",
       "projectName": "WebApplication1.API",
-      "projectPath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication1\\WebApplication1.API\\WebApplication1.API.csproj",
+      "projectPath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication1\\WebApplication1.API.csproj",
       "packagesPath": "C:\\Users\\mfah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication1\\WebApplication1.API\\obj\\",
+      "outputPath": "C:\\Users\\mfah\\source\\repos\\Learning\\src\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

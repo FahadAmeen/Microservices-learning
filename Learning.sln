@@ -9,9 +9,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApplication1", "WebAppli
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApplication2", "WebApplication2", "{9EC37A03-CFD3-4EED-9094-E53A32AB8D07}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.API", "src\WebApplication1\WebApplication1.API\WebApplication1.API.csproj", "{01D7DF57-12A1-4387-8849-D6AD12DAF66E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1.API", "src\WebApplication1\WebApplication1.API.csproj", "{01D7DF57-12A1-4387-8849-D6AD12DAF66E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2.API", "src\WebApplication2\WebApplication2.API\WebApplication2.API.csproj", "{C42B8FF1-F719-4F6B-B9BA-CAABE08522BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2.API", "src\WebApplication2\WebApplication2.API.csproj", "{C42B8FF1-F719-4F6B-B9BA-CAABE08522BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
