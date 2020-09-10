@@ -1,8 +1,0 @@
-C:\Users\mfah\source\repos\Learning\src\WebApplication2\WebApplication2.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\mfah\source\repos\Learning\src\WebApplication2\WebApplication2.API\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\mfah\source\repos\Learning\src\WebApplication2\WebApplication2.API\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-C:\Users\mfah\source\repos\Learning\src\WebApplication2\WebApplication2.API\obj\Debug\netcoreapp3.1\WebApplication2.API.AssemblyInfoInputs.cache
-C:\Users\mfah\source\repos\Learning\src\WebApplication2\WebApplication2.API\obj\Debug\netcoreapp3.1\WebApplication2.API.AssemblyInfo.cs
-C:\Users\mfah\source\repos\Learning\src\WebApplication2\WebApplication2.API\obj\Debug\netcoreapp3.1\WebApplication2.API.RazorTargetAssemblyInfo.cache
-C:\Users\mfah\source\repos\Learning\src\WebApplication2\WebApplication2.API\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication2.API.StaticWebAssets.Manifest.cache
-C:\Users\mfah\source\repos\Learning\src\WebApplication2\WebApplication2.API\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication2.API.StaticWebAssets.xml
