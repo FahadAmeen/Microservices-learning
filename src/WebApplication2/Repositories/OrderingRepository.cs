@@ -1,11 +1,11 @@
-﻿using Catalog.API.Entities;
-using Catalog.API.Repositories.Interfaces;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Catalog.API.Data;
 using Microsoft.EntityFrameworkCore;
+using WebApplication2.API.Data;
+using WebApplication2.API.Entities;
+using WebApplication2.API.Repositories.Interfaces;
 
-namespace Catalog.API.Repositories
+namespace WebApplication2.API.Repositories
 {
     public class OrderingRepository : IOrderingRepository
     {

@@ -1,11 +1,11 @@
-﻿using Catalog.API.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using WebApplication2.API.Entities;
 
-namespace Catalog.API.Data
+namespace WebApplication2.API.Data
 {
     public class OrderingContext : DbContext
     {
-        public OrderingContext(DbContextOptions settings):base(settings)
+        public OrderingContext(DbContextOptions<OrderingContext> settings):base(settings)
         {
 
         }

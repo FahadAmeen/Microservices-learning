@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Catalog.API.Data;
-using Catalog.API.Entities;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.API.Data.Interfaces;
+using WebApplication1.API.Entities;
 
 namespace WebApplication1.API.Data
 {

@@ -1,7 +1,7 @@
-﻿using Catalog.API.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using WebApplication1.API.Entities;
 
-namespace Catalog.API.Data
+namespace WebApplication1.API.Data
 {
     public class CatalogContext : DbContext
     {

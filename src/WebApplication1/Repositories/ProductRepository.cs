@@ -1,13 +1,11 @@
-﻿using Catalog.API.Data.Interfaces;
-using Catalog.API.Entities;
-using Catalog.API.Repositories.Interfaces;
-using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Catalog.API.Data;
 using Microsoft.EntityFrameworkCore;
+using WebApplication1.API.Data;
+using WebApplication1.API.Entities;
+using WebApplication1.API.Repositories.Interfaces;
 
-namespace Catalog.API.Repositories
+namespace WebApplication1.API.Repositories
 {
     public class ProductRepository : IProductRepository
     {

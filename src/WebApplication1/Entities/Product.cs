@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Catalog.API.Entities
+namespace WebApplication1.API.Entities
 {
     public class Product
     {

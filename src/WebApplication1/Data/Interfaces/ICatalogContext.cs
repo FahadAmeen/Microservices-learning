@@ -1,6 +1,6 @@
-﻿using Catalog.API.Entities;
+﻿using WebApplication1.API.Entities;
 
-namespace Catalog.API.Data.Interfaces
+namespace WebApplication1.API.Data.Interfaces
 {
     public interface ICatalogContext
     {

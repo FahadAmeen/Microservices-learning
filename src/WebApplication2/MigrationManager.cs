@@ -1,18 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using Catalog.API.Data;
-using WebApplication1.API.Data.Interfaces;
+using WebApplication2.API.Data;
+using WebApplication2.API.Data.Interfaces;
 
-namespace AL.ERA.Data
+namespace WebApplication2.API
 {
     public static class MigrationManager
     {
         public static IHost MigrateDatabase(this IHost host)
         {
-            using var scope = host.Services.CreateScope();
-            using var appContext = scope.ServiceProvider.GetRequiredService<OrderingContext>();
+             var scope = host.Services.CreateScope();
+             var appContext = scope.ServiceProvider.GetRequiredService<OrderingContext>();
             try
             {
 

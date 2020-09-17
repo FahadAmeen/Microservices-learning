@@ -1,14 +1,17 @@
-﻿using Catalog.API.Entities;
-using Catalog.API.Repositories.Interfaces;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using EventBusRabbitMQ.Common;
+using EventBusRabbitMQ.Events;
+using EventBusRabbitMQ.Producer;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using WebApplication1.API.Entities;
+using WebApplication1.API.Repositories.Interfaces;
 
-namespace Catalog.API.Controllers
+namespace WebApplication1.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -16,11 +19,29 @@ namespace Catalog.API.Controllers
     {
         private readonly IProductRepository _repository;
         private readonly ILogger<CatalogController> _logger;
+        private readonly EventBusRabbitMQProducer _eventBus;
 
-        public CatalogController(IProductRepository repository, ILogger<CatalogController> logger)
+        public CatalogController(IProductRepository repository, ILogger<CatalogController> logger, EventBusRabbitMQProducer eventBus)
         {
             _repository = repository ?? throw new ArgumentNullException(nameof(repository));
-            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger)); 
+            _eventBus = eventBus ?? throw new ArgumentNullException(nameof(eventBus));
+        }
+
+        [HttpPost("publish")]
+        public async Task<IActionResult> PublishMessage()
+        {
+            try
+            {
+                _eventBus.PublishBasketCheckout(EventBusConstants.BasketCheckoutQueue, new BasketCheckoutEvent{Country = "Pindi",EmailAddress = "Fahadameen@gmail.com",UserName = "fahadameen"});
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "ERROR Publishing integration event: {EventId} from {AppName}", "Basket");
+                throw;
+            }
+
+            return Ok();
         }
 
         [HttpGet]

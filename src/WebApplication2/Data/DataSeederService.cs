@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Catalog.API.Data;
-using Catalog.API.Entities;
 using Microsoft.EntityFrameworkCore;
-using WebApplication1.API.Data.Interfaces;
+using WebApplication2.API.Data.Interfaces;
+using WebApplication2.API.Entities;
 
-namespace WebApplication1.API.Data
+namespace WebApplication2.API.Data
 {
     public class DataSeederService:IDataSeeder
     {

@@ -1,8 +1,8 @@
-﻿using Catalog.API.Entities;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using WebApplication2.API.Entities;
 
-namespace Catalog.API.Repositories.Interfaces
+namespace WebApplication2.API.Repositories.Interfaces
 {
     public interface IOrderingRepository
     {
